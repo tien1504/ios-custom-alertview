@@ -46,7 +46,7 @@
 
     // Modify the parameters
     [alertView setButtonTitles:[NSMutableArray arrayWithObjects:@"Cancel", @"Share", nil]];
-    [alertView setDelegate:self];
+    //[alertView setDelegate:self];
     
     // You may use a Block, rather than a delegate.
     [alertView setOnButtonTouchUpInside:^(CustomIOSAlertView *alertView, int buttonIndex) {
