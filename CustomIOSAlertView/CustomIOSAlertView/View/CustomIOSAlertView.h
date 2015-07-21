@@ -44,5 +44,7 @@
 
 - (void)deviceOrientationDidChange: (NSNotification *)notification;
 - (void)dealloc;
-
+- (void)addShareDialogWithTitle: (NSString*) shareTitle;
+- (NSString*) getShareTitle;
+- (NSString*) getDescriptionTitle;
 @end
